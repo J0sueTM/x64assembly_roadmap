@@ -18,4 +18,4 @@ Code
 
 **Useful resources**
 
-- (linux kernel syscall list)[https://github.com/torvalds/linux/blob/v3.13/arch/x86/syscalls/syscall_64.tbl]
+- [linux kernel syscall list](https://github.com/torvalds/linux/blob/v3.13/arch/x86/syscalls/syscall_64.tbl)
