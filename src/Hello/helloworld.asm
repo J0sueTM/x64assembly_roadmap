@@ -13,5 +13,5 @@ _start:
 	syscall
 
 	mov rax, 60 ; sys_exit
-	mov rdi, 0  ; no_error=
+	mov rdi, 0  ; no_error
 	syscall
