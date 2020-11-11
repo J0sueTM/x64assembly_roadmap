@@ -1,10 +1,14 @@
+.PHONY: clean	
+
 all:
-	nasm -f elf64 helloworld.asm -o helloworld.o
+	@mkdir -p ../../build
+	@mkdir -p ../../bin
 
-	ld helloworld.o -o helloworld
+	nasm -f elf64 helloworld.asm -o ../../build/helloworld.o
+	ld ../../build/helloworld.o -o ../../bin/helloworld
 
-	./helloworld
+	./"../../bin/helloworld"
 
 clean:
 
-	rm helloworld.o helloworld
+	rm ../../build/* ../../bin/*

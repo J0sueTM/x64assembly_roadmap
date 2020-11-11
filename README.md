@@ -16,7 +16,7 @@ Theory
 
 Code
 
-- [ ] hello world
+- [X] hello world
 - [ ] user input
 - [ ] sum of two numbers
 

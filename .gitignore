@@ -1,8 +1,2 @@
-# ignore everything
-./*
-
-# don't ignore asm files
-!*.asm
-
-# don't ignore md files
-!*.asm
+./bin/*
+./build/*
