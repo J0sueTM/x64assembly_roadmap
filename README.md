@@ -8,7 +8,13 @@ I'm interested in working in low level software development. So, I'm quite sure 
 
 **Progress**
 
-- [  ] registers
+Theory
+
+- [X] registers
+
+Code
+
+- [ ] hello world
 
 **Useful resources**
 
