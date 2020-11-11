@@ -1,0 +1,10 @@
+all:
+	nasm -f elf64 helloworld.asm -o helloworld.o
+
+	ld helloworld.o -o helloworld
+
+	./helloworld
+
+clean:
+
+	rm helloworld.o helloworld

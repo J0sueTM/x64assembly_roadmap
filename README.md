@@ -10,11 +10,15 @@ I'm interested in working in low level software development. So, I'm quite sure 
 
 Theory
 
+- [ ] binary, hexadecimal
 - [X] registers
+- [ ] instructions
 
 Code
 
 - [ ] hello world
+- [ ] user input
+- [ ] sum of two numbers
 
 **Useful resources**
 
