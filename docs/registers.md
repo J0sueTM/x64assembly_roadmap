@@ -10,21 +10,19 @@ There are 4 types of registers:
 ## General purpose registers
 
 There are 16 general purpose registers, which are divided in 3 sections:
+	
 	- Data registers
 		- RAX 	accumulator  used for in/out and arithmetic operations.
 		- RBX 	base 	     used in indexed addressing.
 		- RCX 	counter      used for count the loop in iterative operations
 		- RDX 	data         used along RAX in in/out operation and large math operations.
-
 	- Pointer registers
 		- RIP   instruction  points the next instruction in the stack.
 		- RBP 	base 		 points the offset value in the stack.
 		- RSP   stack 		 points the variables passed in the subroutine.
-
 	- Index registers
 		- RSI 	source 		 source for string operations
 		- RDI 	destination  destination for string operations
-
 	- General purpose registers
 		- R8
 		- R9
@@ -38,6 +36,7 @@ There are 16 general purpose registers, which are divided in 3 sections:
 ## Control registers
 
 There are 16 control registers, but the most common are the following:
+
 	- OF overflow  indicates the overflow of the left-most bit after a signed arithmetic operation.
 	- DF direction indicates the direction when comparing or moving string data.
 	- IF interrupt indicates whether the user interrupts affect the program or not.
@@ -51,6 +50,7 @@ There are 16 control registers, but the most common are the following:
 ## Segment registers
 
 There are 3 types of segment registers, which are part of real code:
+
 	- Data 	data, constants, work areas. 	Start of data segment adressed by a DS register.
 	- Code  instructions to be executed.    Start of code segment adressed by a CS register.
 	- Stack data and return addressess.     Start of stack segment adressed by a SS register.
